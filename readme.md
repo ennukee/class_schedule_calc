@@ -18,7 +18,7 @@ The important part is to make sure your CSV file is set up properly. It will bre
 
 Important things to note:
 
- * First and foremost, take a look at `test.csv`. It will make everything much easier to understand.
+ * First and foremost, take a look at `test.csv` [here](https://github.com/enragednuke/class_schedule_calc/blob/master/test.csv). It will make everything much easier to understand.
  * Each row follows the format `CLASS NAME,CREDIT COUNT,TIME1,TIME2,etc`
  * Leave no whitespace around the commas
  * Do not include blank lines at the end of your file
