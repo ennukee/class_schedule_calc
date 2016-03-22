@@ -10,11 +10,15 @@ This script is designed to take in a series of comma-separated values consisting
  * A CSV file with your tentative class information
  * **Recommended**: Google Calendar access (to view CSV outputs visually)
 
-### How to use
+## How to use
+
+#### Downloading the source
+
+Pretty simple. Hit the 'Download ZIP' button on the upper right of the file list (just above the top right corner) to download a compressed version of the source code. Unzip it and continue on with the instructions.
 
 #### Your CSV file
 
-The important part is to make sure your CSV file is set up properly. It will break very easily (and it will tell you so) if you improperly write the data in your CSV file.
+The important part is to make sure your CSV file is set up properly. It will break very easily (and it will tell you so) if you improperly write the data in your CSV file. You can name it whatever you like, but make sure to supply this file name to the script later on.
 
 Important things to note:
 
