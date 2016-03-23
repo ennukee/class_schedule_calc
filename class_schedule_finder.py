@@ -46,10 +46,7 @@ class TimeRange:
     latest_start = max(other.start, self.start)
     earliest_end = min(other.end, self.end)
     overlap = earliest_end - latest_start
-    if overlap > datetime.timedelta(0):
-      return True
-    else:
-      return False
+    return overlap > datetime.timedelta(0)
 
 def main(lines, cr_t):
   timeranges = {}
