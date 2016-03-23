@@ -25,7 +25,7 @@ Important things to note:
  * First and foremost, take a look at `test.csv` [here](https://github.com/enragednuke/class_schedule_calc/blob/master/test.csv). It will make everything much easier to understand.
  * Each row follows the format `CLASS NAME,CREDIT COUNT,TIME1,TIME2,etc`
  * Leave no whitespace around the commas
- * Do not include blank lines at the end of your file
+ * _Do not include blank lines at the end of your file_ (now possible to add empty lines for organization purposes)
  * You can have spaces in your class name as long as the space is not next to the comma
  * Credit count **must be an integer value**. Do not try typing "four" or "five" or use other languages. It will not work.
  * The form for the time slots are `DAYS_OF_WEEK hh:mm-hh:mm`. If you've seen/used my [time_overlap_calc](https://github.com/enragednuke/time_overlap_calc) code, it is very similarly formatted. The first set of `hh:mm` is the start time, the second is the end time. Simple.

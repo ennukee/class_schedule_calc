@@ -163,7 +163,7 @@ if __name__ == '__main__':
       with open(sys.argv[1], 'r') as fp:
         dic = {}
         for row in csv.reader(fp):
-          if not '!INC' in row:
+          if row and not '!INC' in row:
             dic[row[0]] = row[2:]
             credit_total += int(row[1])
         main(dic, credit_total)
